@@ -1,0 +1,36 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stackbg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#stackbg)"/>
+  <text x="54" y="72" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Languages</text>
+  <text x="620" y="72" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Tools</text>
+
+  <rect x="54" y="108" width="210" height="58" rx="18" fill="#EA580C"/>
+  <text x="124" y="145" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Java</text>
+
+  <rect x="282" y="108" width="210" height="58" rx="18" fill="#3776AB"/>
+  <text x="338" y="145" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Python</text>
+
+  <rect x="54" y="188" width="210" height="58" rx="18" fill="#00599C"/>
+  <text x="146" y="225" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">C</text>
+
+  <rect x="282" y="188" width="210" height="58" rx="18" fill="#7C3AED"/>
+  <text x="338" y="225" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Kotlin</text>
+
+  <rect x="620" y="108" width="250" height="58" rx="18" fill="#16A34A"/>
+  <text x="661" y="145" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">Android Studio</text>
+
+  <rect x="888" y="108" width="258" height="58" rx="18" fill="#0284C7"/>
+  <text x="961" y="145" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">VS Code</text>
+
+  <rect x="620" y="188" width="250" height="58" rx="18" fill="#F97316"/>
+  <text x="714" y="225" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">Git</text>
+
+  <text x="54" y="316" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">What I like working with</text>
+  <text x="54" y="356" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Android development • API integration • UI polish • structured code • practical software projects</text>
+</svg>
+
