@@ -36,8 +36,7 @@ I like building practical software with clean structure, solid API integration, 
 
 - Completed 2 years of computer science studies at `UiO`
 - Interested in software development, Android apps, APIs, and maintainable architecture
-- Enjoy working on practical projects that combine code quality and good design
-- Currently building a stronger portfolio through hands-on development
+- Enjoy projects that combine code quality, usability, and clear design
 
 <p align="center">
   <img src="./assets/about-card.svg" alt="Animated about me section" width="100%" />
