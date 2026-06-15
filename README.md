@@ -78,21 +78,26 @@ Repository: [github.com/arink1305/splaesh](https://github.com/arink1305/splaesh)
 
 #### Screenshots
 
-<p>
-  <img src="./assets/splaesh-logo.png" alt="Splæsh logo" width="150" />
-</p>
-
-I can replace the rest of this section with the real app screenshots as soon as the actual image files are available locally.
-
-- `Map overview`
-- `Settings`
-- `Recommendations`
-
-<!-- Example:
-![Map overview](./assets/your-map-screenshot.png)
-![Weather layers](./assets/your-weather-screenshot.png)
-![Beach details](./assets/your-popup-screenshot.png)
--->
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="./assets/Bilde1.png" alt="Splæsh logo" width="180" /><br/>
+      <b>App identity</b>
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/Bilde2.png" alt="Splæsh map view" width="180" /><br/>
+      <b>Map overview</b>
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/instillinger.png" alt="Splæsh settings screen" width="180" /><br/>
+      <b>Settings</b>
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/anbefalinger.png" alt="Splæsh recommendations screen" width="180" /><br/>
+      <b>Recommendations</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
