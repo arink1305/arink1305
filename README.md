@@ -17,25 +17,29 @@
   <img src="./assets/hero.svg" alt="Profile hero card" width="100%" />
 </p>
 
+<p align="center">
+  <a href="mailto:arink1305@gmail.com">
+    <img src="https://img.shields.io/badge/Email-arink1305%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/arink1305">
+    <img src="https://img.shields.io/badge/GitHub-arink1305-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/arin-kehreman-8573403a4/">
+    <img src="https://img.shields.io/badge/LinkedIn-Arin%20Kehreman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
 ## About Me
 
-<table>
-  <tr>
-    <td width="58%" valign="top">
-      <ul>
-        <li>Computer Science student at the University of Oslo<br/><code>Informatikk: programmering og systemarkitektur</code></li>
-        <li>Completed 2 years of study in programming and system-oriented subjects</li>
-        <li>Interested in software development, Android apps, API integration, and maintainable architecture</li>
-        <li>I enjoy building practical products with polished UI and clear structure</li>
-        <li>Currently growing my portfolio through hands-on programming projects</li>
-      </ul>
+<p align="center">
+  <img src="./assets/about-card.svg" alt="About me card" width="100%" />
+</p>
 
-    </td>
-    <td width="42%" valign="top">
-      <img src="./assets/about-visual.svg" alt="About me illustration" width="100%" />
-    </td>
-  </tr>
-</table>
+- Computer Science student at the University of Oslo
+- Completed 2 years of `Informatikk: programmering og systemarkitektur`
+- Interested in software development, Android apps, API integration, and maintainable architecture
+- I enjoy building practical products with polished UI and clear structure
+- Currently growing my portfolio through hands-on programming projects
 
 ---
 
@@ -56,6 +60,10 @@ Splæsh is an Android bathing app for Norway that helps users find and evaluate 
 Repository: [github.com/arink1305/splaesh](https://github.com/arink1305/splaesh)
 
 <p align="center">
+  <img src="./assets/splaesh-logo.png" alt="Splæsh app logo" width="180" />
+</p>
+
+<p align="center">
   <img src="./assets/splaesh-card.svg" alt="Splæsh project preview" width="100%" />
 </p>
 
@@ -70,11 +78,15 @@ Repository: [github.com/arink1305/splaesh](https://github.com/arink1305/splaesh)
 
 #### Screenshots
 
-Replace the placeholders below with real screenshots from the app when you're ready.
+<p>
+  <img src="./assets/splaesh-logo.png" alt="Splæsh logo" width="150" />
+</p>
+
+I can replace the rest of this section with the real app screenshots as soon as the actual image files are available locally.
 
 - `Map overview`
-- `Weather layers and time scroller`
-- `Beach details and bathing score`
+- `Settings`
+- `Recommendations`
 
 <!-- Example:
 ![Map overview](./assets/your-map-screenshot.png)
@@ -96,5 +108,18 @@ Informatics: Programming and System Architecture
 
 ## Contact
 
+<p>
+  <a href="mailto:arink1305@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email button" />
+  </a>
+  <a href="https://github.com/arink1305">
+    <img src="https://img.shields.io/badge/GitHub-Visit%20profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub button" />
+  </a>
+  <a href="https://www.linkedin.com/in/arin-kehreman-8573403a4/">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn button" />
+  </a>
+</p>
+
 - Email: [arink1305@gmail.com](mailto:arink1305@gmail.com)
 - GitHub: [github.com/arink1305](https://github.com/arink1305)
+- LinkedIn: [arin-kehreman-8573403a4](https://www.linkedin.com/in/arin-kehreman-8573403a4/)
