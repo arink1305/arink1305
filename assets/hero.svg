@@ -1,44 +1,148 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="560" viewBox="0 0 1280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F172A"/>
-      <stop offset="0.55" stop-color="#132A57"/>
-      <stop offset="1" stop-color="#3B1D6B"/>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1280" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.45" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#172554"/>
+      <animate attributeName="x1" values="0;140;0" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1280;1140;1280" dur="18s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 132) rotate(90) scale(220 260)">
+      <stop stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1130 388) rotate(90) scale(210 260)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chipGrad" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#38BDF8"/>
       <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="panelShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <style>
+      .floatSlow { animation: floatSlow 9s ease-in-out infinite; transform-origin: center; }
+      .floatMid { animation: floatMid 7s ease-in-out infinite; transform-origin: center; }
+      .floatFast { animation: floatFast 5.8s ease-in-out infinite; transform-origin: center; }
+      .pulseA { animation: pulseA 5s ease-in-out infinite; transform-origin: center; }
+      .pulseB { animation: pulseB 4.2s ease-in-out infinite; transform-origin: center; }
+      .driftA { animation: driftA 18s linear infinite; }
+      .driftB { animation: driftB 22s linear infinite; }
+      .scan { animation: scan 5s ease-in-out infinite; }
+      .blink { animation: blink 1s steps(2, start) infinite; }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-14px); }
+      }
+      @keyframes floatMid {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-18px); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-11px); }
+      }
+      @keyframes pulseA {
+        0%,100% { opacity: .82; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.08); }
+      }
+      @keyframes pulseB {
+        0%,100% { opacity: .5; transform: scale(1); }
+        50% { opacity: .92; transform: scale(1.12); }
+      }
+      @keyframes driftA {
+        0% { transform: translateX(0px); }
+        50% { transform: translateX(-18px); }
+        100% { transform: translateX(0px); }
+      }
+      @keyframes driftB {
+        0% { transform: translateX(0px); }
+        50% { transform: translateX(22px); }
+        100% { transform: translateX(0px); }
+      }
+      @keyframes scan {
+        0% { transform: translateX(-180px); opacity: 0; }
+        10% { opacity: .85; }
+        55% { opacity: .85; }
+        100% { transform: translateX(210px); opacity: 0; }
+      }
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+    </style>
   </defs>
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="1050" cy="74" r="110" fill="#38BDF8" fill-opacity="0.08"/>
-  <circle cx="1138" cy="250" r="124" fill="#8B5CF6" fill-opacity="0.12"/>
-  <circle cx="889" cy="310" r="64" fill="#22C55E" fill-opacity="0.10"/>
 
-  <text x="60" y="92" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">PORTFOLIO PROFILE</text>
-  <text x="60" y="150" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">Building practical software</text>
-  <text x="60" y="200" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">with clean design and solid structure</text>
-  <text x="60" y="246" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="22">Kotlin • Java • Python • C • Android • APIs • UI polish</text>
+  <rect width="1280" height="560" rx="40" fill="url(#heroBg)"/>
+  <ellipse cx="980" cy="132" rx="210" ry="220" fill="url(#glowBlue)" class="pulseA" filter="url(#softBlur)"/>
+  <ellipse cx="1128" cy="398" rx="180" ry="220" fill="url(#glowPurple)" class="pulseB" filter="url(#softBlur)"/>
 
-  <rect x="60" y="278" width="170" height="42" rx="21" fill="url(#chip)"/>
-  <text x="92" y="305" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">UI + Design</text>
+  <g class="driftA">
+    <circle cx="1140" cy="70" r="4" fill="#E2E8F0" fill-opacity="0.7"/>
+    <circle cx="1084" cy="118" r="3" fill="#38BDF8" fill-opacity="0.8"/>
+    <circle cx="1188" cy="154" r="3.2" fill="#8B5CF6" fill-opacity="0.8"/>
+    <circle cx="1038" cy="204" r="2.7" fill="#E2E8F0" fill-opacity="0.7"/>
+  </g>
+  <g class="driftB">
+    <circle cx="938" cy="356" r="3.4" fill="#38BDF8" fill-opacity="0.65"/>
+    <circle cx="1216" cy="312" r="2.7" fill="#E2E8F0" fill-opacity="0.55"/>
+    <circle cx="1106" cy="458" r="4" fill="#8B5CF6" fill-opacity="0.6"/>
+  </g>
 
-  <rect x="246" y="278" width="168" height="42" rx="21" fill="#172554"/>
-  <text x="285" y="305" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Android Apps</text>
+  <text x="72" y="110" fill="#93C5FD" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">GITHUB PROFILE</text>
+  <text x="72" y="184" fill="white" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">Arin Kehreman</text>
+  <text x="72" y="238" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">Computer Science student building Android apps with a focus on</text>
+  <text x="72" y="278" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">clean UI, practical features, and solid API integration</text>
 
-  <rect x="430" y="278" width="168" height="42" rx="21" fill="#0F3D34"/>
-  <text x="476" y="305" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">API Work</text>
+  <g class="floatSlow">
+    <rect x="72" y="320" width="180" height="48" rx="24" fill="url(#chipGrad)"/>
+    <text x="121" y="351" fill="white" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Kotlin</text>
+  </g>
+  <g class="floatFast">
+    <rect x="268" y="320" width="178" height="48" rx="24" fill="#0F3D34"/>
+    <text x="319" y="351" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Android</text>
+  </g>
+  <g class="floatMid">
+    <rect x="462" y="320" width="152" height="48" rx="24" fill="#172554"/>
+    <text x="504" y="351" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">APIs</text>
+  </g>
+  <g class="floatSlow">
+    <rect x="628" y="320" width="172" height="48" rx="24" fill="#3B1D6B"/>
+    <text x="671" y="351" fill="#E9D5FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Design</text>
+  </g>
 
-  <rect x="850" y="62" width="250" height="210" rx="26" fill="#0B1224" fill-opacity="0.95" stroke="#334155"/>
-  <rect x="872" y="86" width="206" height="24" rx="12" fill="#111C34"/>
-  <circle cx="890" cy="98" r="6" fill="#38BDF8"/>
-  <circle cx="909" cy="98" r="6" fill="#8B5CF6"/>
-  <circle cx="928" cy="98" r="6" fill="#22C55E"/>
-  <rect x="872" y="126" width="98" height="60" rx="16" fill="#10213F"/>
-  <rect x="986" y="126" width="92" height="60" rx="16" fill="#132540"/>
-  <rect x="872" y="202" width="206" height="18" rx="9" fill="#1E293B"/>
-  <rect x="872" y="230" width="148" height="18" rx="9" fill="#1E293B"/>
-  <path d="M905 176C918 159 937 149 958 149C979 149 998 159 1011 176" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
-  <path d="M930 168L958 140L986 168" stroke="#8B5CF6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#panelShadow)">
+    <rect x="792" y="86" width="404" height="388" rx="34" fill="#071225" fill-opacity="0.96" stroke="#334155"/>
+  </g>
+  <rect x="822" y="118" width="344" height="230" rx="28" fill="#0F203D"/>
+  <rect x="852" y="148" width="132" height="132" rx="24" fill="#0A1730"/>
+  <circle cx="918" cy="212" r="34" fill="#38BDF8" fill-opacity="0.18"/>
+  <path d="M884 232C900 185 941 156 989 156" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" class="floatSlow"/>
+  <path d="M896 250C923 211 964 192 1000 192" stroke="#8B5CF6" stroke-width="10" stroke-linecap="round" class="floatFast"/>
+  <rect x="1006" y="152" width="130" height="22" rx="11" fill="#111C34"/>
+  <rect x="1006" y="187" width="102" height="18" rx="9" fill="#111C34"/>
+  <rect x="1006" y="217" width="118" height="18" rx="9" fill="#111C34"/>
+  <rect x="852" y="300" width="114" height="22" rx="11" fill="#172554"/>
+  <rect x="978" y="300" width="74" height="22" rx="11" fill="#0F3D34"/>
+  <text x="865" y="390" fill="white" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Featured work</text>
+  <text x="865" y="425" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="22">Android • Weather maps • UX polish</text>
+
+  <g opacity="0.72">
+    <path d="M70 468C140 452 234 456 296 468C362 480 448 500 538 488C624 476 676 442 760 442" stroke="url(#lineGrad)" stroke-width="5" stroke-linecap="round" class="driftA"/>
+    <path d="M100 500C176 484 262 494 334 506C392 516 448 520 520 514C610 506 680 468 758 470" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="4" stroke-linecap="round" class="driftB"/>
+  </g>
+
+  <rect x="793" y="103" width="404" height="18" rx="9" fill="white" fill-opacity="0.04"/>
+  <rect x="812" y="388" width="110" height="6" rx="3" fill="#38BDF8" opacity="0.2"/>
+  <rect x="812" y="388" width="110" height="6" rx="3" fill="#38BDF8" class="scan"/>
+
+  <text x="72" y="420" fill="#7DD3FC" font-family="JetBrains Mono, Consolas, monospace" font-size="24">const focus = ['android', 'ux', 'api-integration']<tspan class="blink">_</tspan></text>
 </svg>
-

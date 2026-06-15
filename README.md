@@ -25,6 +25,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="./assets/hero.svg" alt="Animated hero section" width="100%" />
+</p>
+
 ## About Me
 
 I am a Computer Science student at the University of Oslo, currently studying `Informatikk: programmering og systemarkitektur`.
@@ -35,7 +39,15 @@ I like building practical software with clean structure, solid API integration, 
 - Enjoy working on practical projects that combine code quality and good design
 - Currently building a stronger portfolio through hands-on development
 
+<p align="center">
+  <img src="./assets/about-card.svg" alt="Animated about me section" width="100%" />
+</p>
+
 ## Tech Stack
+
+<p align="center">
+  <img src="./assets/stack-card.svg" alt="Animated tech stack section" width="100%" />
+</p>
 
 <p align="center">
   <img
@@ -52,13 +64,13 @@ I like building practical software with clean structure, solid API integration, 
 
 ### Splæsh
 
-<p align="center">
-  <img src="./assets/Bilde1.png" alt="Splæsh app logo" width="150" />
-</p>
-
 Splæsh is an Android bathing app for Norway that helps users find and evaluate swimming spots using weather maps, point forecasts, hazard warnings, UV data, recommendations, and a bathing score.
 
 Repository: [github.com/arink1305/splaesh](https://github.com/arink1305/splaesh)
+
+<p align="center">
+  <img src="./assets/project-banner.svg" alt="Animated Splæsh project banner" width="100%" />
+</p>
 
 #### What I worked on
 
@@ -102,17 +114,9 @@ Informatics: Programming and System Architecture
 
 ## Contact
 
-<p align="center">
-  <a href="mailto:arink1305@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email button" />
-  </a>
-  <a href="https://github.com/arink1305">
-    <img src="https://img.shields.io/badge/GitHub-Visit%20profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub button" />
-  </a>
-  <a href="https://www.linkedin.com/in/arin-kehreman-8573403a4/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn button" />
-  </a>
-</p>
+- Email: [arink1305@gmail.com](mailto:arink1305@gmail.com)
+- GitHub: [github.com/arink1305](https://github.com/arink1305)
+- LinkedIn: [linkedin.com/in/arin-kehreman-8573403a4](https://www.linkedin.com/in/arin-kehreman-8573403a4/)
 
 <p align="center">
   <img

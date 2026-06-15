@@ -1,38 +1,72 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="abg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#172554"/>
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#16213E"/>
     </linearGradient>
-    <linearGradient id="apill" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="aboutLine" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#38BDF8"/>
       <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
+    <style>
+      .floatOne { animation: floatOne 8s ease-in-out infinite; transform-origin: center; }
+      .floatTwo { animation: floatTwo 6.5s ease-in-out infinite; transform-origin: center; }
+      .blink { animation: blink 1.1s steps(2, start) infinite; }
+      .slideLine { animation: slideLine 4.8s ease-in-out infinite; }
+      @keyframes floatOne {
+        0%,100% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+      }
+      @keyframes floatTwo {
+        0%,100% { transform: translateY(0px); }
+        50% { transform: translateY(10px); }
+      }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes slideLine {
+        0% { transform: translateX(-120px); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { transform: translateX(160px); opacity: 0; }
+      }
+    </style>
   </defs>
-  <rect width="1200" height="360" rx="28" fill="url(#abg)"/>
-  <circle cx="1060" cy="76" r="118" fill="#38BDF8" fill-opacity="0.08"/>
-  <circle cx="1118" cy="274" r="120" fill="#8B5CF6" fill-opacity="0.10"/>
 
-  <text x="54" y="66" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">About Me</text>
-  <text x="54" y="118" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Computer Science student at the University of Oslo</text>
-  <text x="54" y="154" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Focused on software development, Android, APIs, and clean architecture</text>
-  <text x="54" y="190" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Building a portfolio through practical and design-conscious projects</text>
+  <rect width="1280" height="360" rx="34" fill="url(#aboutBg)"/>
+  <circle cx="1120" cy="78" r="94" fill="#38BDF8" fill-opacity="0.08"/>
+  <circle cx="1204" cy="274" r="114" fill="#8B5CF6" fill-opacity="0.08"/>
 
-  <rect x="54" y="226" width="314" height="44" rx="22" fill="url(#apill)"/>
-  <text x="86" y="254" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">UiO • Programming &amp; System Architecture</text>
+  <text x="56" y="68" fill="white" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">About Me</text>
+  <text x="56" y="116" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="22">Computer Science student at the University of Oslo</text>
+  <text x="56" y="150" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="20">Interested in Android development, API integration, maintainable code, and polished UI.</text>
+  <text x="56" y="184" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="20">I enjoy turning practical ideas into real products that feel structured and usable.</text>
 
-  <rect x="390" y="226" width="150" height="44" rx="22" fill="#0F3D34"/>
-  <text x="440" y="254" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Kotlin</text>
+  <g class="floatOne">
+    <rect x="56" y="222" width="244" height="46" rx="23" fill="#172554"/>
+    <text x="92" y="251" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">UiO • 2 years completed</text>
+  </g>
+  <g class="floatTwo">
+    <rect x="318" y="222" width="170" height="46" rx="23" fill="#0F3D34"/>
+    <text x="360" y="251" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Android apps</text>
+  </g>
+  <g class="floatOne">
+    <rect x="506" y="222" width="166" height="46" rx="23" fill="#3B1D6B"/>
+    <text x="550" y="251" fill="#E9D5FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">API work</text>
+  </g>
 
-  <rect x="558" y="226" width="158" height="44" rx="22" fill="#172554"/>
-  <text x="606" y="254" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Android</text>
+  <rect x="830" y="52" width="374" height="256" rx="28" fill="#081121" stroke="#334155"/>
+  <rect x="860" y="84" width="314" height="160" rx="22" fill="#0E1A32"/>
+  <rect x="888" y="112" width="90" height="18" rx="9" fill="#111C34"/>
+  <rect x="888" y="145" width="132" height="18" rx="9" fill="#111C34"/>
+  <rect x="888" y="178" width="108" height="18" rx="9" fill="#111C34"/>
+  <text x="888" y="225" fill="#7DD3FC" font-family="JetBrains Mono, Consolas, monospace" font-size="20">build(user_experience)<tspan class="blink">_</tspan></text>
 
-  <rect x="734" y="226" width="142" height="44" rx="22" fill="#3B1D6B"/>
-  <text x="777" y="254" fill="#E9D5FF" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">APIs</text>
+  <g class="floatTwo">
+    <rect x="1046" y="112" width="98" height="98" rx="22" fill="#122443"/>
+    <path d="M1072 167L1090 149L1108 167" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1084 184L1116 152" stroke="#8B5CF6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1074 142C1081 137 1089 134 1097 134C1110 134 1122 141 1128 152" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+  </g>
 
-  <rect x="942" y="72" width="190" height="190" rx="28" fill="#0B1224" stroke="#334155"/>
-  <circle cx="1036" cy="145" r="42" fill="#172554"/>
-  <path d="M978 214C991 182 1022 160 1058 160C1091 160 1120 181 1134 210" fill="#10213F"/>
-  <rect x="980" y="282" width="114" height="14" rx="7" fill="#1E293B"/>
-  <rect x="998" y="308" width="78" height="12" rx="6" fill="#111827"/>
+  <rect x="860" y="264" width="160" height="10" rx="5" fill="#111827"/>
+  <rect x="860" y="264" width="160" height="10" rx="5" fill="url(#aboutLine)" class="slideLine"/>
 </svg>
