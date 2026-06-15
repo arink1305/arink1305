@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:7c3aed&height=240&section=header&text=Arin%20Kehreman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%7C%20Aspiring%20Software%20Developer&descAlignY=60&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:2563eb,100:38bdf8&height=240&section=header&text=Arin%20Kehreman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%7C%20Software%20Development%20%7C%20Android&descAlignY=60&descSize=18"
     alt="Header banner"
     width="100%"
   />
@@ -8,13 +8,9 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=23&pause=1200&color=38BDF8&center=true&vCenter=true&width=950&lines=Programming+student+at+the+University+of+Oslo;Building+Android+apps+with+Kotlin;Interested+in+software+development%2C+design%2C+and+architecture;Always+learning+through+practical+projects"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Computer+Science+student+at+UiO;Building+Android+apps+with+Kotlin;Interested+in+APIs%2C+UI%2C+and+software+architecture;Learning+through+practical+projects"
     alt="Typing animation"
   />
-</p>
-
-<p align="center">
-  <img src="./assets/hero.svg" alt="Profile hero card" width="100%" />
 </p>
 
 <p align="center">
@@ -31,41 +27,38 @@
 
 ## About Me
 
-<p align="center">
-  <img src="./assets/about-card.svg" alt="About me card" width="100%" />
-</p>
+I am a Computer Science student at the University of Oslo, currently studying `Informatikk: programmering og systemarkitektur`.
+I like building practical software with clean structure, solid API integration, and polished user experiences.
 
-- Computer Science student at the University of Oslo
-- Completed 2 years of `Informatikk: programmering og systemarkitektur`
-- Interested in software development, Android apps, API integration, and maintainable architecture
-- I enjoy building practical products with polished UI and clear structure
-- Currently growing my portfolio through hands-on programming projects
-
----
+- Completed 2 years of computer science studies at `UiO`
+- Interested in software development, Android apps, APIs, and maintainable architecture
+- Enjoy working on practical projects that combine code quality and good design
+- Currently building a stronger portfolio through hands-on development
 
 ## Tech Stack
 
 <p align="center">
-  <img src="./assets/stack-card.svg" alt="Tech stack card" width="100%" />
+  <img
+    src="https://skillicons.dev/icons?i=kotlin,java,python,c,androidstudio,vscode,git&perline=7"
+    alt="Tech stack icons"
+  />
 </p>
 
----
+<p align="center">
+  Kotlin • Java • Python • C • Android Studio • VS Code • Git
+</p>
 
 ## Featured Project
 
 ### Splæsh
 
+<p align="center">
+  <img src="./assets/Bilde1.png" alt="Splæsh app logo" width="150" />
+</p>
+
 Splæsh is an Android bathing app for Norway that helps users find and evaluate swimming spots using weather maps, point forecasts, hazard warnings, UV data, recommendations, and a bathing score.
 
 Repository: [github.com/arink1305/splaesh](https://github.com/arink1305/splaesh)
-
-<p align="center">
-  <img src="./assets/splaesh-logo.png" alt="Splæsh app logo" width="180" />
-</p>
-
-<p align="center">
-  <img src="./assets/splaesh-card.svg" alt="Splæsh project preview" width="100%" />
-</p>
 
 #### What I worked on
 
@@ -76,30 +69,28 @@ Repository: [github.com/arink1305/splaesh](https://github.com/arink1305/splaesh)
 - bathing score UI and behavior
 - recommendation features and UX
 
-#### Screenshots
+#### App Screenshots
 
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="./assets/Bilde1.png" alt="Splæsh logo" width="180" /><br/>
-      <b>App identity</b>
-    </td>
-    <td align="center" width="25%">
-      <img src="./assets/Bilde2.png" alt="Splæsh map view" width="180" /><br/>
+      <img src="./assets/Bilde2.png" alt="Splæsh map overview" width="200" /><br/>
       <b>Map overview</b>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/instillinger.png" alt="Splæsh settings screen" width="180" /><br/>
+      <img src="./assets/instillinger.png" alt="Splæsh settings screen" width="200" /><br/>
       <b>Settings</b>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/anbefalinger.png" alt="Splæsh recommendations screen" width="180" /><br/>
+      <img src="./assets/anbefalinger.png" alt="Splæsh recommendations screen" width="200" /><br/>
       <b>Recommendations</b>
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/favoritter.png" alt="Splæsh favorites screen" width="200" /><br/>
+      <b>Favorites</b>
     </td>
   </tr>
 </table>
-
----
 
 ## Education
 
@@ -109,11 +100,9 @@ Informatics: Programming and System Architecture
 - completed 2 years of study
 - focused on programming, software structure, and system-oriented thinking
 
----
-
 ## Contact
 
-<p>
+<p align="center">
   <a href="mailto:arink1305@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email button" />
   </a>
@@ -125,6 +114,10 @@ Informatics: Programming and System Architecture
   </a>
 </p>
 
-- Email: [arink1305@gmail.com](mailto:arink1305@gmail.com)
-- GitHub: [github.com/arink1305](https://github.com/arink1305)
-- LinkedIn: [arin-kehreman-8573403a4](https://www.linkedin.com/in/arin-kehreman-8573403a4/)
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:2563eb,100:0f172a&height=120&section=footer"
+    alt="Footer banner"
+    width="100%"
+  />
+</p>
