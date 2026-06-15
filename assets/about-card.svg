@@ -1,0 +1,38 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="apill" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#abg)"/>
+  <circle cx="1060" cy="76" r="118" fill="#38BDF8" fill-opacity="0.08"/>
+  <circle cx="1118" cy="274" r="120" fill="#8B5CF6" fill-opacity="0.10"/>
+
+  <text x="54" y="66" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">About Me</text>
+  <text x="54" y="118" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Computer Science student at the University of Oslo</text>
+  <text x="54" y="154" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Focused on software development, Android, APIs, and clean architecture</text>
+  <text x="54" y="190" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Building a portfolio through practical and design-conscious projects</text>
+
+  <rect x="54" y="226" width="314" height="44" rx="22" fill="url(#apill)"/>
+  <text x="86" y="254" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">UiO • Programming &amp; System Architecture</text>
+
+  <rect x="390" y="226" width="150" height="44" rx="22" fill="#0F3D34"/>
+  <text x="440" y="254" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Kotlin</text>
+
+  <rect x="558" y="226" width="158" height="44" rx="22" fill="#172554"/>
+  <text x="606" y="254" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Android</text>
+
+  <rect x="734" y="226" width="142" height="44" rx="22" fill="#3B1D6B"/>
+  <text x="777" y="254" fill="#E9D5FF" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">APIs</text>
+
+  <rect x="942" y="72" width="190" height="190" rx="28" fill="#0B1224" stroke="#334155"/>
+  <circle cx="1036" cy="145" r="42" fill="#172554"/>
+  <path d="M978 214C991 182 1022 160 1058 160C1091 160 1120 181 1134 210" fill="#10213F"/>
+  <rect x="980" y="282" width="114" height="14" rx="7" fill="#1E293B"/>
+  <rect x="998" y="308" width="78" height="12" rx="6" fill="#111827"/>
+</svg>
