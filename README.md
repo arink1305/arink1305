@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:2563eb,100:38bdf8&height=240&section=header&text=Arin%20Kehreman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%7C%7C%20&descAlignY=60&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:2563eb,100:38bdf8&height=240&section=header&text=Arin%20Kehreman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%20&descAlignY=60&descSize=18"
     alt="Header banner"
     width="100%"
   />
