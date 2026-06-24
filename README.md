@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:2563eb,100:38bdf8&height=240&section=header&text=Arin%20Kehreman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%7C%20Software%20Development%20%7C%20Android&descAlignY=60&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:2563eb,100:38bdf8&height=240&section=header&text=Arin%20Kehreman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%7C%20Full-Stack%20%26%20Android%20Development&descAlignY=60&descSize=18"
     alt="Header banner"
     width="100%"
   />
@@ -8,7 +8,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Computer+Science+student+at+UiO;Building+Android+apps+with+Kotlin;Interested+in+APIs%2C+UI%2C+and+software+architecture;Learning+through+practical+projects"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Computer+Science+student+at+UiO;Full-stack+web+%26+Android+development;Building+AI-powered+apps+with+React%2C+FastAPI+%26+Kotlin;Learning+through+practical%2C+shipped+projects"
     alt="Typing animation"
   />
 </p>
@@ -27,87 +27,63 @@
 
 ## About Me
 
-I am a Computer Science student at the University of Oslo, currently studying `Informatikk: programmering og systemarkitektur`.
-I like building practical software with clean structure, solid API integration, and polished user experiences.
-
-- Completed 2 years of computer science studies at `UiO`
-- Interested in software development, Android apps, APIs, and maintainable architecture
-- Enjoy working on practical projects that combine code quality and good design
-- Currently building a stronger portfolio through hands-on development
+Computer Science student at the University of Oslo (`Informatikk: programmering og systemarkitektur`), with two years completed. I like building practical, polished software — from Android apps to full-stack web apps with AI integration.
 
 ## Tech Stack
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=kotlin,java,python,c,androidstudio,vscode,git&perline=7"
+    src="https://skillicons.dev/icons?i=kotlin,java,python,js,react,fastapi,postgres,androidstudio,git&perline=9"
     alt="Tech stack icons"
   />
 </p>
 
 <p align="center">
-  Kotlin • Java • Python • C • Android Studio • VS Code • Git
+  Kotlin • Java • Python • React • FastAPI • PostgreSQL • Android • Git
 </p>
 
-## Featured Project
-
-### Splæsh
-
-<p align="center">
-  <img src="./assets/Bilde1.png" alt="Splæsh app logo" width="150" />
-</p>
-
-Splæsh is an Android bathing app for Norway that helps users find and evaluate swimming spots using weather maps, point forecasts, hazard warnings, UV data, recommendations, and a bathing score.
-
-Repository: [github.com/arink1305/splaesh](https://github.com/arink1305/splaesh)
-
-#### What I worked on
-
-- design and visual polish
-- hazard warnings API integration
-- UV API integration
-- work on the Victoria weather map integration
-- bathing score UI and behavior
-- recommendation features and UX
-
-#### App Screenshots
+## Featured Projects
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <img src="./assets/Bilde2.png" alt="Splæsh map overview" width="200" /><br/>
-      <b>Map overview</b>
+    <td width="50%" valign="top">
+      <h3>⚡ FlashGenius</h3>
+      <img src="./assets/flashgenius.png" alt="FlashGenius" width="100%" />
+      <p>
+        A full-stack AI study tool that turns your notes (or PDFs) into
+        <b>flashcards, quizzes, summaries, and interactive mind maps</b> in seconds.
+        Includes user accounts, a personal library, light/dark mode, and live AI generation.
+      </p>
+      <p><b>Stack:</b> React · FastAPI · PostgreSQL · Groq (Llama 3.1)</p>
+      <p>
+        🔗 <a href="https://flash-genius-vvo5.vercel.app">Live demo</a> ·
+        <a href="https://github.com/arink1305/FlashGenius">Code</a>
+      </p>
     </td>
-    <td align="center" width="25%">
-      <img src="./assets/instillinger.png" alt="Splæsh settings screen" width="200" /><br/>
-      <b>Settings</b>
-    </td>
-    <td align="center" width="25%">
-      <img src="./assets/anbefalinger.png" alt="Splæsh recommendations screen" width="200" /><br/>
-      <b>Recommendations</b>
-    </td>
-    <td align="center" width="25%">
-      <img src="./assets/favoritter.png" alt="Splæsh favorites screen" width="200" /><br/>
-      <b>Favorites</b>
+    <td width="50%" valign="top">
+      <h3>🌊 Splæsh</h3>
+      <img src="./assets/Bilde2.png" alt="Splæsh" width="100%" />
+      <p>
+        An Android bathing app for Norway that helps users find and rate swimming spots using
+        weather maps, point forecasts, hazard warnings, UV data, and a bathing score.
+      </p>
+      <p><b>Stack:</b> Kotlin · Android</p>
+      <p>
+        <a href="https://github.com/arink1305/splaesh">Code</a><br/>
+        <b>My role:</b> hazard &amp; UV API integration, weather map, bathing score and recommendation UI.
+      </p>
     </td>
   </tr>
 </table>
 
 ## Education
 
-**University of Oslo**  
-Informatics: Programming and System Architecture
-
-- completed 2 years of study
-- focused on programming, software structure, and system-oriented thinking
-
-## Contact
+**University of Oslo** — Informatics: Programming and System Architecture
+Two years completed, focused on programming, software structure, and system-oriented thinking.
 
 <p align="center">
   <a href="mailto:arink1305@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email button" />
-  </a>
-  <a href="https://github.com/arink1305">
-    <img src="https://img.shields.io/badge/GitHub-Visit%20profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub button" />
   </a>
   <a href="https://www.linkedin.com/in/arin-kehreman-8573403a4/">
     <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn button" />
