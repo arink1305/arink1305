@@ -30,11 +30,7 @@ I study Informatics at the **University of Oslo** — two years completed, focus
       </p>
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/arink1305/splaesh">
-        <img src="./assets/splaesh-kart.png" alt="Splæsh map view" width="32%" />
-        <img src="./assets/splaesh-anbefalinger.png" alt="Splæsh recommendations" width="32%" />
-        <img src="./assets/splaesh-innstillinger.png" alt="Splæsh settings in dark mode" width="32%" />
-      </a>
+      <a href="https://github.com/arink1305/splaesh"><img src="./assets/splaesh-kart.png" alt="Splæsh map view" width="31%" /><img src="./assets/splaesh-anbefalinger.png" alt="Splæsh recommendations" width="31%" /><img src="./assets/splaesh-innstillinger.png" alt="Splæsh settings in dark mode" width="31%" /></a>
       <br/><br/>
       <img src="./assets/splaesh-logo.png" alt="" width="30" />
       <h3>Splæsh</h3>
