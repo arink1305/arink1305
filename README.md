@@ -1,110 +1,81 @@
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:2563eb,100:38bdf8&height=240&section=header&text=Arin%20Kehreman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%20&descAlignY=60&descSize=18"
-    alt="Header banner"
-    width="100%"
-  />
-</p>
+<img src="./assets/header.svg" alt="Arin Kehreman — Computer Science Student, Oslo, Norway" width="100%" />
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Computer+Science+student+at+UiO;Full-stack+web+and+Android+development;Learning+through+practical%2C+shipped+projects"
-    alt="Typing animation"
-  />
-</p>
+I study Informatics at the **University of Oslo** and have completed two years focused on programming, system-oriented thinking, and software architecture. I like building things that are actually finished — where the empty states, the error handling, and the small details are done, not just the happy path.
 
-<p align="center">
-  <a href="mailto:arink1305@gmail.com">
-    <img src="https://img.shields.io/badge/Email-arink1305%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/arink1305">
-    <img src="https://img.shields.io/badge/GitHub-arink1305-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/arin-kehreman-8573403a4/">
-    <img src="https://img.shields.io/badge/LinkedIn-Arin%20Kehreman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+Right now I am looking for my first role in IT.
 
-## About Me
+<br/>
 
-Computer Science student at the University of Oslo (`Informatikk: programmering og systemarkitektur`), with two years completed. I like building practical, polished software — from Android apps to full-stack web apps with AI integration.
+### 01 &nbsp;&nbsp;What I work with
 
-## Tech Stack
+|  |  |
+|---|---|
+| **Languages** | Kotlin · Java · Python · JavaScript · C · SQL · HTML / CSS |
+| **Frontend** | React · Vite · Jetpack Compose · plain CSS |
+| **Backend** | FastAPI · PostgreSQL · REST APIs · JWT auth |
+| **Mobile** | Android · Jetpack Compose · MVVM · Coroutines |
+| **Tools** | Git · Android Studio · VS Code · Figma · Docker |
 
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=kotlin,java,python,js,react,fastapi,postgres,androidstudio,git&perline=9"
-    alt="Tech stack icons"
-  />
-</p>
+<br/>
 
-<p align="center">
-  Kotlin • Java • Python • React • FastAPI • PostgreSQL • Android • Git
-</p>
-
-## Featured Projects
+### 02 &nbsp;&nbsp;Projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://flash-genius-vvo5.vercel.app">
-        <img src="./assets/flashgenius.png" alt="FlashGenius" width="100%" />
-      </a>
-      <h3>⚡ FlashGenius</h3>
-      <p><i>Turn your notes into flashcards, quizzes, summaries<br/>and interactive mind maps — with AI.</i></p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/Groq_AI-F55036?logo=meta&logoColor=white" alt="Groq" />
-      </p>
-      <p>
-        <a href="https://flash-genius-vvo5.vercel.app">
-          <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
-        </a>
-        <a href="https://github.com/arink1305/FlashGenius">
-          <img src="https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/arink1305/splaesh">
-        <img src="./assets/Bilde2.png" alt="Splæsh" width="100%" />
-      </a>
-      <h3>🌊 Splæsh</h3>
-      <p><i>An Android bathing app for Norway — find and rate<br/>swimming spots with weather, UV and a bathing score.</i></p>
-      <p>
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin" />
-        <img src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white" alt="Android" />
-        <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
-      </p>
-      <p>
-        <a href="https://github.com/arink1305/splaesh">
-          <img src="https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" />
-        </a>
-      </p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+**FlashGenius** — a full-stack web app that turns your notes into AI-generated study material: flashcards, quizzes, summaries and interactive mind maps.
+
+Built end to end — React frontend, FastAPI backend, PostgreSQL, a Stripe-powered freemium model, and an SM-2 spaced-repetition engine that schedules each card right before you forget it.
+
+`React` `FastAPI` `PostgreSQL` `Stripe` `Groq / Llama`
+
+[**Live demo →**](https://flash-genius-vvo5.vercel.app) &nbsp;·&nbsp; [Source](https://github.com/arink1305/FlashGenius)
+
+</td>
+<td width="50%" valign="top">
+
+**Splæsh** — an Android app for finding bathing places in Norway, with weather, warnings, sea data and a recommendation flow built into one map-based experience.
+
+A team project where I worked on design polish, warnings and UV integration, parts of the weather map, and the UX around the bathing score and recommendations.
+
+`Kotlin` `Jetpack Compose` `Mapbox` `Retrofit` `MVVM`
+
+[**Source →**](https://github.com/arink1305/splaesh)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="./assets/flashgenius.png" alt="FlashGenius landing page" width="100%" />
+</td>
+<td width="50%" valign="top">
+<img src="./assets/splaesh-kart.png" alt="Splæsh map view with bathing places around Oslo" width="49%" />
+<img src="./assets/splaesh-anbefalinger.png" alt="Splæsh recommendations sorted by bathing score" width="49%" />
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="./assets/flashgenius-dark.png" alt="FlashGenius dashboard in dark mode" width="100%" />
+</td>
+<td width="50%" valign="top">
+<img src="./assets/flashgenius-study.png" alt="FlashGenius study mode with a flipped flashcard" width="100%" />
+</td>
+</tr>
 </table>
 
-## Education
+<sub>Both apps ship a light and a dark theme built on the same warm paper-and-ink palette.</sub>
+
+<br/>
+
+### 03 &nbsp;&nbsp;Education
 
 **University of Oslo** — Informatics: Programming and System Architecture
-Two years completed, focused on programming, software structure, and system-oriented thinking.
 
-<p align="center">
-  <a href="mailto:arink1305@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email button" />
-  </a>
-  <a href="https://www.linkedin.com/in/arin-kehreman-8573403a4/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn button" />
-  </a>
-</p>
+Two years completed. Coursework in programming, algorithms, software structure, databases and system-oriented thinking, alongside hands-on project work.
 
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:2563eb,100:0f172a&height=120&section=footer"
-    alt="Footer banner"
-    width="100%"
-  />
-</p>
+<br/>
+
+<img src="./assets/footer.svg" alt="Let's talk — arink1305@gmail.com" width="100%" />
+
+[Email](mailto:arink1305@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/arin-kehreman-8573403a4/) &nbsp;·&nbsp; [Portfolio](https://arink1305.github.io)
