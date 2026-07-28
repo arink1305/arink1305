@@ -76,7 +76,7 @@ I study Informatics at the **University of Oslo** — two years completed, focus
   </tr>
   <tr>
     <td><b>Tools</b></td>
-    <td><code>Git</code> <code>Android Studio</code> <code>VS Code</code> <code>Figma</code> <code>Docker</code></td>
+    <td><code>Git</code> <code>Android Studio</code> <code>VS Code</code> </td>
   </tr>
 </table>
 
